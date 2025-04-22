@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@0,400..840;1,400..840&family=Baloo+Bhai+2:wght@400..800&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw
+}
+.progress{
+    background-color: red;
+    height: 0.1vh;
+    animation-name: widthanimation;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+
+}
+@keyframes widthanimation{
+    0%{
+        width: 30vw;
+    }
+    50%{
+        width:60vw;
+    }
+    100%{
+        width:100vw;
+    }
+
+
+
+}
+
+
+    
+
+header{
+    
+    background-color: rgb(50, 29, 170);
+    font-family: "Baloo Bhai 2", sans-serif;
+   
+}
+nav{
+    display:flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo img{
+    width:9vw;
+    padding:0px 10px;
+}
+nav ul{
+    display: flex;
+    justify-content:flex-start;
+    height:8vh;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    padding:0px 23px
+   
+}
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(10, 10, 10);
+    font-style:italic;
+    font-weight: bolder;
+}
+.search{
+    display: flex;
+    align-items: center;
+    
+    
+}
+.search input{
+    height: 6vh;
+    width: 31vw;
+    border:1px solid black;
+    border-radius: 5px;
+    margin: 0px 20px 0px 50px;
+}
+.btn{
+    color:white;
+    border:1px solid rgb(252, 251, 255);
+    padding:4px 10px;
+    border-radius: 7px;
+    background-color: rgb(29, 29, 165);
+    cursor:pointer;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+.CARDS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slider{
+    display:flex;
+    width:100vw;
+    margin:5px;
+    background-color: azure;
+    justify-content: center;
+    
+    
+}
+
+.slider img{
+    width: 55vw;
+    height: 49vh;
+}
+
+.carditem{
+    display:inline-flex;
+    flex-direction: column;
+    text-align: center;
+    margin:0px 33px;
+
+}
+
+    
+.carditem img{
+    height:20vh;
+    border:2px solid rgb(177, 164, 164);
+        }
+.cards{
+    background:azure;
+    margin:auto ;
+    max-width:100vw;
+    font-family: "Baloo Bhai 2", sans-serif;
+    
+}
+
+.my1{
+    margin:0px 20px;
+}
+.lines:hover{
+
+    color:blue;
+    text-decoration: underline;
+    font-style: italic;
+    cursor: pointer;
+}
+
+
+
+
+.container{
+    min-height: calc(100vh - 8vh - 12vh);
+}
+
+footer{
+    background-color: rgb(67, 23, 189);
+    color: white;
+    height:12vh;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
