@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utilities.css">
+</head>
+<body>
+    <div class="progress">
+
+    </div>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="Flipkart-logo.png" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" placeholder="Type here to search anything....">
+                <button class="btn">Search</button>
+            </div>
+            
+        </nav>
+
+    </header>
+    <main>
+        <marquee behavior="" direction="">FLAT 50% SALE STARTS MIDNIGHT!!!            GRAB YOUR FAV STUFF </marquee>
+       
+        <div class="container">
+            <div class="slider">
+                 <img src="bags.webp" alt="bags">
+             
+            </div>
+           
+           
+
+            <div class="CARDSS">
+            <div class="cards">
+                <h2 class="my1">Fun with Cricket</h2>
+                <div class="carditem">
+                    <img src="bat.webp" alt="">
+                    <div class="lines">
+                        <p>Cricket Bat</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="helmet.jpg" alt="">
+                    <div class="lines">
+                        <p>Head Wear</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="stumps.webp" alt="">
+                    <div class="lines">
+                        <p>Stumps</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="ball.jpg" alt="">
+                    <div class="lines">
+                        <p>Cricket Ball</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="pads.webp" alt="">
+                    <div class="lines">
+                        <p>Knee Pads</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="kit.webp" alt="">
+                    <div class="lines">
+                        <p>Cricket Kit</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <hr>
+                
+                
+            </div>
+            <div class="cards">
+                <h2 class="my1">Some trendy dresses</h2>
+                <div class="carditem">
+                    <img src="pink dress.jpg" alt="">
+                    <div class="lines">
+                        <p>Cricket Bat</p>
+                        <p>min 50% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="proncess dress.jpg" alt="">
+                    <div class="lines">
+                        <p>Head Wear</p>
+                        <p>min 50% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="floral dress.webp" alt="">
+                    <div class="lines">
+                        <p>Stumps</p>
+                        <p>min 60% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="black dress.webp" alt="">
+                    <div class="lines">
+                        <p>Cricket Ball</p>
+                        <p>min 70% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="orane.jpg" alt="">
+                    <div class="lines">
+                        <p>Knee Pads</p>
+                        <p>min 80% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                <div class="carditem">
+                    <img src="white.webp" alt="">
+                    <div class="lines">
+                        <p>Cricket Kit</p>
+                        <p>min 20% off</p>
+                        <p>Grab now</p>
+                    </div>
+
+                </div>
+                
+                
+            </div>
+            
+        </div>
+
+    </main>
+    <footer class="flex-all-center">
+        <p >Copyright &copy; MyCart.com</p>
+    </footer>
+    
+</body>
+</html>
